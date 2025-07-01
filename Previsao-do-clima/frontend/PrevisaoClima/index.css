@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #A7D3F2;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    background-color: #4B8EBF;
+    border-radius: 10px;
+}
+
+main #location-info {
+    background-color: #6dabd4;
+    border: none;
+    border-radius: 10px;
+}
+
+main #location-info form{
+    background-color: #6dabd4;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+main #input-temperature-type {
+    color: #FFFFFF;
+    background-color: #2E5C7D;
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    padding: 0rem 1rem;
+    text-align: center;
+}
+
+main #location-info h1 {
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-align: center;
+}
+
+main #location-info input {
+    color: #2E5C7D;
+    background-color: #C6E4F9;
+    border: none;
+    border-radius: 5px;
+    flex: 1;
+    height: 32px;
+    padding: 0.5rem;
+}
+
+main #location-info input::placeholder{
+    color: #6dabd4;
+}
+
+main #location-info button {
+    color: #FFFFFF;
+    background-color: #2E5C7D;
+    border: none;
+    border-radius: 5px;
+    height: 32px;
+    padding: 0rem 1rem;
+}
+
+main #weather-report h2{
+    color: #FFFFFF;
+    font-size: 2rem;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .temperature-location-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+main .temperature-location-image span{
+    color: #FFFFFF;
+    font-size: 64px;
+}
+
+main .temperature-location-image img{
+    width: 120px;
+    height: 120px;
+}
