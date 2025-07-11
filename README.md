@@ -4,5 +4,5 @@ Implementação simples para visualizar a previsão do clima de uma região e su
 
 ## 🖼️ Exemplo da Interface
 
-![Interface do app mostrando a previsão do tempo](frontend/PrevisaoClima/previsao-do-tempo.png)
-
+![Interface do app mostrando a previsão do tempo](Previsao-do-clima/frontend/PrevisaoClima/previsao-do-tempo.png)
+É necessário o NPM, NODE e uma Chave de API do openweather para rodar o código
